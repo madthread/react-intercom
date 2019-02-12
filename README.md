@@ -16,7 +16,6 @@ export class App extends React.Component {
 
   render () {
     const { appUser } = this.props;
-    
     const user = {
       user_id: appUser.id,
       email: appUser.email,
